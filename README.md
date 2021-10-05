@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#### Next.js deployment practice with AWS and GitHub Actions.  
 
-## Getting Started
+---
 
-First, run the development server:
+#### The Guide Blog
+- [ **KOR** ] [[ Next.js ] AWS S3를 통한 정적 웹 사이트 배포 및 GitHub Actions를 통한 CI/CD](https://weekwith.tistory.com/entry/Nextjs-AWS-S3%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%A0%95%EC%A0%81-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC-%EB%B0%8F-GitHub-Actions%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB-CICD)
+- [ **ENG** ]
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### What You Can Learn
+- AWS account management with **AWS Identity and Access Management (IAM)**
+- Static Web site deployment with **AWS S3**
+- Using own domain and HTTPS with **AWS CloudFront**, **Route53**, **Certification Manager (ACM)**
+- CI / CD with **GitHub Actions**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### What You Can't Learn
+- The basic of **Git** and **GitHub**
+- The basic of **Frontend** including **Next.js**
+- The core concept of **AWS**
+- The core concept of **WEB** and **HTTP**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Caution
+- **Domain purchase costs** and **AWS charges** may apply.
+- The Guide Blog is **long** as there are **many images** that are **easy to follow**.
+- After the artice was written, there may be **changes** in the AWS or GitHub service UI, etc.
